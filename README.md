@@ -1,6 +1,6 @@
 
 # -Air-Quality-Index-Prediction-System
-=======
+
 # India AQI Prediction — Production ML Project
 
 > A production-ready machine learning system for predicting India's National Air Quality Index (NAQI) in real time — with a full demonstration and fix of a data leakage flaw from the GeeksForGeeks tutorial.
