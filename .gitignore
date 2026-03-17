@@ -1,0 +1,54 @@
+# ── Data files (download / collect manually) ─────────────────
+data/*.csv
+data/*.parquet
+data/*.json
+
+# ── Trained model artifacts ───────────────────────────────────
+outputs/*.pkl
+outputs/*.joblib
+outputs/model_results.csv
+outputs/rt_*.csv
+
+# ── Secrets ───────────────────────────────────────────────────
+.streamlit/secrets.toml
+alerts_config.json
+.env
+*.env
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+dist/
+build/
+.Python
+
+# ── Virtual environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ── Testing & coverage ────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# ── IDE & OS ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────
+*.log
+outputs/alert_log.csv
+outputs/drift_log.csv
